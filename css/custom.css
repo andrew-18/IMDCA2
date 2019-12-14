@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+}
+
+.custom-navbar {
+    background-color: #80ced6;
+}
+
+.home-link {
+    border: 2px solid #ffffff;
+    padding: 3px 15px;
+    color: #ffffff;
+}
+
+.nav-link {
+    border: 2px solid transparent;
+    color: #ffffff;
+}
+
+a:link.nav-link {
+    margin: 5px;
+}
+
+a:hover.nav-link {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+}
+
+.landing-container {
+    width: 100%;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    color: #ffffff;
+}
+
+.background-image {
+    width: 100%;
+}
+
+.front-image-container {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.front-name {
+    font-size: 4em;
+    font-weight: 700;
+    padding-bottom: 15px;
+}
+
+.btn-aboutme {
+    background-color: #80ced6;
+}
+
+.btn-aboutme-a {
+    padding: 5px;
+}
+
+.btn-aboutme-a:link {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid transparent;
+}
+
+.btn-aboutme-a:visited {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.btn-aboutme-a:hover {
+    text-decoration: none;
+    color: #ffffff;
+    border: 2px solid white;
+}
