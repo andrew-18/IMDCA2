@@ -3,6 +3,10 @@ body {
     background-color: #f2f2f2;
 }
 
+.fa-bars {
+    background-color: #ffffff;
+}
+
 .custom-navbar {
     background-color: #41b4bf;
 }
@@ -33,33 +37,33 @@ a:hover.nav-link {
     color: #ffffff;
 }
 
-.landing-container {
+.hero-component-image {
+    background-image: url('../assets/background.jpg');
+    height: 100%;
     width: 100%;
-    padding: 0;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
     text-align: center;
-    color: #ffffff;
 }
 
-.background-image {
-    width: 100%;
-}
-
-.front-image-container {
-    position: absolute;
-    top: 40%;
+.hero-conponent-text {
+    text-align: center;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    color: white;
 }
 
 .front-name {
-    font-size: 4em;
-    font-weight: 700;
-    padding-bottom: 15px;
+    color: #ffffff;
 }
 
 .front-occupation {
-    padding-bottom: 15px;
+    color: #ffffff;
 }
 
 .btn-aboutme, .btn-cv{
