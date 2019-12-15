@@ -1,3 +1,4 @@
+<!-- Andrew Sullivan - X00139350 -->
 <!DOCTYPE html>
 <html>
   <head>
@@ -5,27 +6,40 @@
     <meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
     <link rel='stylesheet' href='css/bootstrap.css'>
     <link rel='stylesheet' href='css/custom.css'>
-    <title>Andrew Sullivan</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='js/bootstrap.js'></script>
+    
+    <script src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n' crossorigin='anonymous'></script>
+    <script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous'></script>
+    <script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous'></script>
+
+    <title>Andrew Sullivan - CV</title>
   </head>
-  <body>
-    <nav class="navbar navbar-expand-sm custom-navbar">
+  <body data-spy='scroll' data-target='#scrollable-navbar' data-offset='200'>
+    <nav class='navbar navbar-expand-sm custom-navbar fixed-top' id='scrollable-narbar'>
       <a class='navbar-brand home-link' href='index.html'>Andrew Sullivan</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-collapse">
-        <span class="navbar-toggler-icon"></span>
+      <button class='navbar-toggler' type='button' data-toggle='collapse' data-target='#nav-collapse'>
+        <span class='navbar-toggler-icon'></span>
       </button>
       <div class='collapse navbar-collapse' id='nav-collapse'>
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link" href="#aboutme">About Me</a>
+        <ul class='navbar-nav'>
+          <li class='nav-item'>
+            <a class='nav-link' href='#aboutme'>About Me</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
+          <li class='nav-item'>
+            <a class='nav-link' href='#education'>Education</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Work Experience</a>
+          <li class='nav-item'>
+            <a class='nav-link' href='#work-experience'>Work Experience</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contact</a>
+          <li class='nav-item'>
+            <a class='nav-link' href='#projects'>Projects</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#hobbies'>Hobbies</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link' href='#contact'>Contact</a>
           </li>
         </ul>  
       </div>
@@ -36,14 +50,353 @@
       <div class='front-image-container'>
         <img class='rounded-circle front-image' src='assets/front-image.jfif'>
         <h2 class='front-name'>Andrew Sullivan</h2>
+        <h3 class=front-occupation>Software Engineer</h3>
         <button class='btn btn-aboutme'><a class='btn-aboutme-a' href='#aboutme'>About Me</a></button>
+        <button class='btn btn-cv'><a href='AndrewSullivanCV.pdf' download class='btn-cv-a'>Download CV</a></button>
       </div>
     </div>
 
-    <div id='aboutme'>
-      <h1>
-        About ME
-      </h1>
+    <div id='aboutme' class='container aboutme-container'>
+      <div class='section-heading'>
+        <h1>About Me</h1>
+      </div>
+      <div class='row'>
+        <div class='col-md-6 col-sm-12 details'>
+          <h3>Details</h3>
+          Name: Andrew Sullivan
+          <br>
+          E-mail: andrewsullivan1234@gmail.com
+          <br>
+          Phone: 085 123 4567
+          <br>
+        </div>
+        <div class='col-md-6 col-sm-12 summary'>
+          <h3>Summary</h3>
+          I am an enthusiastic and hard-working individual with exceptional interpersonal skills, and an eagerness to succeed.
+          Strong IT skills with the benefit of previous experience in the industry, gained through a software engineering internship.
+          I have an eagerness to achieve and an real passion for the IT industry
+        </div>
+      </div>
+    </div>
+
+    <div id='education' class='container'>
+      <div class=section-heading>
+        <h1>Eduction</h1>
+      </div>
+      <div class='row'>
+        <div class='col-md-6 col-sm-12 college-details'>
+          <h3>College</h3>
+          <img src='assets/college.png'>
+          <h4>BSc (Hons) in Computing Science with Software Development</h4>
+          <h6>Technological University Dublin (Tallaght Campus)</h6>
+          Blessington Rd,
+          Tallaght,<br>
+          Dublin 24,<br>
+          D24 FKT9<br>
+          <br>
+          September 2019 - Present
+
+        </div>
+        <div class='col-md-6 col-sm-12 school-details'>
+          <h3>School</h3>
+          <img src='assets/school-crest.jfif'>
+          <h6>Scoil Mhuire Community School</h6>
+          Prosperous Rd,
+          Crockaun Commons,<br>
+          Clane<br>
+          Co. Kildare<br>
+          W91 PD79<br>
+          <br>
+          September 2010 - May 2016
+        </div>
+      </div>
+
+      <div class='section-heading'>
+        <h1 class='college-grades-heading'>College Grades</h1>
+        <div class='row'>
+          <div class='col-md-12 col-sm-12'>
+            <ul class='nav nav-pills grade-pills'>
+              <li class='nav-item'>
+                <a class='nav-link active' data-toggle='pill' href='#firstYear'>First Year (GPA: 3.38)</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' data-toggle='pill' href='#secondYear'>Second Year (GPA: 3.46)</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' data-toggle='pill' href='#thirdYear'>Third Year (GPA: 3.33)</a>
+              </li>
+              <li class='nav-item'>
+                <a class='nav-link' data-toggle='pill' href='#fourthYear'>Fourth Year (GPA: TBD)</a>
+              </li>
+            </ul>
+
+            <div class='tab-content'>
+              <div class='container-fluid tab-pane active' id='firstYear' role='tabpanel'>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:65%'>Web Design Fundamentals (B)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Software Developmet 1 (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Discrete Maths 1 (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:55%'>Learning to Learn (B-)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:55%'>Business Information Systems (B-)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Computer Architecture (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-danger' style='width:35%'>Object Orientated Systems Analysis (D)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Software Devopment 2 (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Statistics (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Operating System Fundamentals (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Database Fundamentals (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Social Media Studies (B+)</div>
+                </div>
+              </div>
+
+              <div class='container-fluid tab-pane' id='secondYear' role='tabpanel'>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Database Design (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Discrete Maths 2 (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Networking 1 (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:55%'>Software Quality Assurance and Testing (B-)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:65%'>Software Development 3 (B)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:65%'>Web Design and Development (B)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Management Science (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Networking 2 (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:55%'>Object Orientated Analysis and Design (B-)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Second Year Project (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Information Security (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Software Development 4 (B+)</div>
+                </div>
+              </div>
+              <div class='container-fluid tab-pane' id='thirdYear' role='tabpanel'>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Data Structures and Algorithms (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:65%'>Cloud Services and Distributed Computing (B)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:75%'>Data Analysis (B+)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-success' style='width:100%'>Big Data Technologies (A)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:65%'>Operating Systems (B)</div>
+                </div>
+                <div class='progress'>
+                  <div class='progress-bar bg-warning' style='width:65%'>Server Side Web Development (B)</div>
+                </div>
+              </div>
+              <div class='container-fluid tab-pane' id='fourthYear' role='tabpanel'>To be determined</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='work-experience' class='container'>
+      <div class='section-heading'>
+        <h1>Work Experience</h1>
+      </div>
+      <div class='row'>
+        <div class='col-md-6 col-sm-12 fidelity'>
+          <img src='assets/fidelity.png'>
+          <h6>Software Development Intern</h6><br>
+          January 2019 - August 2019<br>
+          <br>
+          Intern on the Global Mobile Team.
+          Gained valuable experience working with Angular and Ionic to create hybrid mobile apps.
+          Work was completed through the Agile methodology
+        </div>
+        <div class='col-md-6 col-sm-12 manzors'>
+          <h3>Jas Manzor, The Village Inn Ltd</h3><br>
+          <h6>Bar Manager</h6><br>
+          April 2017 - Present<br>
+          <br>
+          Bar manager in The Village Inn Ltd. Key responsibilities include, locking up, handling cash
+          managing behind the bar and training staff.
+        </div>
+      </div>
+    </div>
+
+    <div id='projects' class='container'>
+      <div class='section-heading'>
+        <h1>Projects</h1>
+      </div>
+      <div class='row'>
+        <div class='col-md-12 col-sm-12 nuavote'>
+          <h3>Fourth Year Project - NuaVote</h3>
+          <div id='nuavote-carousel' class='carousel slide' data-ride='carousel'>
+            <ul class='carousel-indicators'>
+              <li data-target='#nuavote-carousel' data-slide-to='0' class='active'></li>
+              <li data-target='#nuavote-carousel' data-slide-to='1'></li>
+            </ul>
+          
+            <div class='carousel-inner'>
+              <div class='carousel-item active'>
+                <img src='assets/NuaVoteLanding.PNG' alt='NuaVote Landing'>
+              </div>
+              <div class='carousel-item'>
+                <img src='assets/NuaVoteSignUp.PNG' alt='NuaVote Signup'>
+              </div>
+            </div>
+
+            <a class='carousel-control-prev' href='#nuavote-carousel' data-slide='prev'>
+              <span class='carousel-control-prev-icon'></span>
+            </a>
+            <a class='carousel-control-next' href='#nuavote-carousel' data-slide='next'>
+              <span class='carousel-control-next-icon'></span>
+            </a>
+          </div>
+          NuaVote is a voting application that's still in the works.
+          NuaVote is different from other voting applications in that it uses blockchain technology in the background to keep track of the votes.
+          This makes the application a very safe way to vote.
+          <br>
+          <br>
+          September 2019 - Present
+        </div>
+      </div>
+        <div class='col-md-12 col-sm-12 freshkicks'>
+          <h3>Second Year Project - Fresh Kicks</h3>
+          <div id='freshkicks-carousel' class='carousel slide' data-ride='carousel'>
+            <ul class='carousel-indicators'>
+              <li data-target='#freshkicks-carousel' data-slide-to='0' class='active'></li>
+              <li data-target='#freshkicks-carousel' data-slide-to='1'></li>
+              <li data-target='#freshkicks-carousel' data-slide-to='2'></li>
+              <li data-target='#freshkicks-carousel' data-slide-to='3'></li>
+            </ul>
+          
+            <div class='carousel-inner'>
+              <div class='carousel-item active'>
+                <img src='assets/FreshKicksLanding.PNG' alt='FreshKicks Landing'>
+              </div>
+              <div class='carousel-item'>
+                <img src='assets/FreshKicksSearch.PNG' alt='FreshKicks Search'>
+              </div>
+              <div class='carousel-item'>
+                <img src='assets/FreshKicksLogin.PNG' alt='FreshKicks Login'>
+              </div>
+              <div class='carousel-item'>
+                <img src='assets/FreshKicksProduct.PNG' alt='FreshKicks Product'>
+              </div>
+            </div>
+
+            <a class='carousel-control-prev' href='#freshkicks-carousel' data-slide='prev'>
+              <span class='carousel-control-prev-icon'></span>
+            </a>
+            <a class='carousel-control-next' href='#freshkicks-carousel' data-slide='next'>
+              <span class='carousel-control-next-icon'></span>
+            </a>
+          </div>
+          FreshKicks is an online shoe retil and management system.
+          Customers can create an account, log in and add products to their baskets. They can then navigate the the checkout and pay for the products.
+          <br>
+          <br>
+          January 2018 - May 2018
+        </div>
+      </div>
+    </div>
+
+    <div id='hobbies' class='container'>
+      <div class='section-heading'>
+        <h1>Hobbies and Achievements</h1>
+        <div class='row'>
+          <div class='col-md-6 col-sm-12'>
+            <img src='assets/nfl-logo.png'>
+            <h3>NFL</h3>
+            I have an avid interest in the NFL and American football.
+          </div>
+          <div class='col-md-6 col-sm-12'>
+            <img src='assets/gym.png'>
+            <h3>GYM</h3>
+            I enjoy going to the gym on a regular basis.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id='contact' class='container'>
+      <h1 class='section-heading'>Contact Me</h1>
+      <div class='row'>
+        <div class='col-md-12 col-sm-12 contactme'>
+          <button class='btn btn-contact' data-toggle='modal' data-target='#contact-model'>Contact Me</button>
+          <div class='modal' id='contact-model'>
+            <div class='modal-dialog'>
+              <div class='modal-content'>
+                <div class='modal-header'>
+                  <h4 class='modal-title'>Contact Me</h4>
+                  <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                </div>
+          
+                <div class='modal-body'>
+                  <div class='form-group'>
+                    <label>Name:</label>
+                    <input type='text' class='form-control'>
+                  </div>
+                  <div class='form-group'>
+                    <label>Message:</label>
+                    <input type='text' class='form-control'>
+                  </div>
+                </div>
+          
+                <div class='modal-footer'>
+                  <button type='button' class='btn btn-contact' data-dismiss='modal'>Send</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class='col-sm-12 col-md-12 contact-logos'>
+          <a href=https://github.com/andrew-18 target='_blank'>
+            <i class='fa fa-github fa-4x'></i>
+          </a>
+          <a href='https://www.linkedin.com/in/andrewsull' target='_blank'>
+            <i class='fa fa-linkedin fa-4x'></i>
+          </a>
+        </div>
+      </div>
     </div>
   </body>
 </html>

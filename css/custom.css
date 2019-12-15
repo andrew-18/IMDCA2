@@ -1,9 +1,10 @@
 body {
     margin: 0;
+    background-color: #f2f2f2;
 }
 
 .custom-navbar {
-    background-color: #80ced6;
+    background-color: #41b4bf;
 }
 
 .home-link {
@@ -12,7 +13,13 @@ body {
     color: #ffffff;
 }
 
-.nav-link {
+.home-link:hover {
+    border: 2px solid transparent;
+    padding: 3px 15px;
+    color: #ffffff;
+}
+
+a.nav-link {
     border: 2px solid transparent;
     color: #ffffff;
 }
@@ -40,7 +47,7 @@ a:hover.nav-link {
 
 .front-image-container {
     position: absolute;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -51,27 +58,199 @@ a:hover.nav-link {
     padding-bottom: 15px;
 }
 
-.btn-aboutme {
-    background-color: #80ced6;
+.front-occupation {
+    padding-bottom: 15px;
 }
 
-.btn-aboutme-a {
+.btn-aboutme, .btn-cv{
+    background-color: #41b4bf;
+}
+
+.btn-aboutme-a, .btn-cv-a{
     padding: 5px;
 }
 
-.btn-aboutme-a:link {
+.btn-aboutme-a:link, .btn-cv-a:link {
     text-decoration: none;
     color: #ffffff;
     border: 2px solid transparent;
 }
 
-.btn-aboutme-a:visited {
+.btn-aboutme-a:visited, .btn-cv-a:visited {
     text-decoration: none;
     color: #ffffff;
 }
 
-.btn-aboutme-a:hover {
+.btn-aboutme-a:hover, .btn-cv-a:hover {
     text-decoration: none;
     color: #ffffff;
     border: 2px solid white;
+}
+
+#aboutme {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.section-heading {
+    text-align: center;
+    color: #41b4bf;
+}
+
+.details {
+    color: #41b4bf;
+}
+
+.summary {
+    color: #41b4bf;
+}
+
+#education {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.college-details {
+    color: #41b4bf;
+}
+
+.school-details {
+    color: #41b4bf;
+}
+
+.college-grades-heading {
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.grade-pills {
+    justify-content: center;
+}
+
+.nav-pills .nav-item .nav-link:not(.active) {
+    background-color: #41b4bf;
+}
+
+.nav-pills .nav-item .nav-link {
+    background-color: #2d7e86;
+}
+
+.progress {
+    height: 20px;
+    margin: 5px;
+}
+
+.progress-bar {
+    height: 20px;
+    text-align: left;
+    padding: 5px;
+}
+
+#work-experience {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.fidelity {
+    color: #41b4bf;
+}
+
+.fidelity img {
+    padding-bottom: 10px;
+}
+
+.manzors {
+    color: #41b4bf;
+}
+
+.manzors img {
+    height: 75%;
+    width: 75%;
+}
+
+#projects {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.freshkicks {
+    text-align: center;
+    color: #41b4bf;
+}
+
+#freshkicks-carousel {
+    padding-bottom: 5%;
+}
+
+#freshkicks-carousel .carousel-item img {
+    height: 90%;
+    width: 90%;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: black;
+}
+
+.nuavote {
+    margin-bottom: 5%;
+    color: #41b4bf;
+    text-align: center;
+}
+
+#hobbies {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+#contact {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-top: 5%;
+    margin-bottom: 2%;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+.btn-contact {
+    background-color: #41b4bf;
+    color: #ffffff;
+}
+
+.btn-contact:hover {
+    color: #ffffff;
+}
+
+.contactme {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.contact-logos {
+    text-align: center;
+}
+
+.fa {
+    padding: 20px;
+    color: #41b4bf;
 }
